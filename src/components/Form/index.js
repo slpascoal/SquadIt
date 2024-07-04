@@ -2,6 +2,7 @@ import './Form.css'
 import Label from '../Label'
 import LabelFile from '../LabelFile'
 import DropdownList from '../DropdownList'
+import Button from '../Button'
 
 const Form = () => {
     
@@ -14,14 +15,21 @@ const Form = () => {
         'UX e Design'
     ]
 
+    const aoSalvar = (event) => {
+        event.preventDefault()
+    }
+
     return (
         <section className='Form'>
-            <form>
+            <form onSubmit={aoSalvar}>
                 <h2>Preencha os dados do colaborador</h2>
-                <Label label="Nome" placeholder="Digite o nome do colaborador"/>
-                <Label label="Cargo" placeholder="Digite o cargo do colaborador"/>
-                <LabelFile label="Imagem" placeholder="Upload"/>
-                <DropdownList label="Setor" itens={times}/>
+                <Label required="True" label="Nome" placeholder="Digite o nome do colaborador"/>
+                <Label required="True" label="Cargo" placeholder="Digite o cargo do colaborador"/>
+                <LabelFile required="False" label="Imagem" placeholder="Upload"/>
+                <DropdownList required="True" label="Setor" itens={times}/>
+                <Button>
+                    Criar card
+                </Button>
             </form>
         </section> 
     )
