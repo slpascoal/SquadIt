@@ -1,0 +1,54 @@
+.card{
+    height: 250px;
+    width: 250px;
+
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px !important;
+    transition: 0.5s;
+}
+
+.cardInterno:hover{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgb(0, 0, 0)) !important;
+    border-radius: 10px;
+}
+
+.cardInterno{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.cardInterno:hover{
+    opacity: 1;
+    animation: fade-up 0.5s;
+}
+
+.conteudoCard h4{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.conteudoCard h5{
+    color: rgb(202, 225, 255);
+    text-transform: uppercase;
+}
+
+@keyframes fade-up {
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
