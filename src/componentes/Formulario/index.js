@@ -26,7 +26,7 @@ const Formulario = (props) => {
     }
 
     return (
-        <section className="formulario">
+        <div className="formulario">
             <form onSubmit={aoSalvar}>
                 <h2>Preencha os dados para criar o card do colaborador</h2>
                 <CampoTexto 
@@ -60,7 +60,7 @@ const Formulario = (props) => {
                     Criar Card
                 </Botao>
             </form>
-        </section>
+        </div>
     )
 }
 

@@ -12,25 +12,25 @@ const Rodape = () => {
     }
 
     return (
-        <header className="rodape">
-            <section className='redesSociais'>
+        <footer className="rodape">
+            <div className='redesSociais'>
                 <ul>
                     <li><a href='https://portfolio-silas-psi.vercel.app/' target='_blank' rel="noreferrer"><FaGlobe /></a></li>
                     <li><a href='https://github.com/slpascoal' target='_blank' rel="noreferrer"><FaGithub /></a></li>
                     <li><a href='https://www.instagram.com/msi.lp/' target='_blank' rel="noreferrer"><FaInstagram /></a></li>
                 </ul>
-            </section>
-            <section className='imagem'>
+            </div>
+            <div className='imagem'>
                 <img src="/imagens/Logo SquadIt.png" alt="O banner principal da página do Organo"/>
-            </section>
-            <section className='descricao'>
+            </div>
+            <div className='descricao'>
                 <div className='descCentro'>
                     <h4>Desenvolvido por Silas L. Pascoal</h4>
                     <p>Me envie um email: <IoMdMail className='copymail' onClick={Copiar}/>
                     </p>
                 </div>
-            </section>
-        </header>
+            </div>
+        </footer>
     )
 }
 

@@ -3,6 +3,11 @@
     width: 250px;
 
     border-radius: 10px;
+
+    @media (max-width:768px) {
+        height: 150px;
+        width: 150px;
+    }
 }
 
 .card:hover{

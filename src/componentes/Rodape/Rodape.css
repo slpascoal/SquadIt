@@ -1,5 +1,4 @@
 .rodape {
-    position: relative;
 
     background-color: #24c0eb;
 
@@ -12,7 +11,14 @@
     border-radius: 30px 30px 0px 0px;
     padding: 0px 20px;
 
-    
+    @media (max-width:768px) {
+        position: relative;
+        bottom: 0;
+
+        padding: 0px 20px 0px 0px;
+
+        height: 100px;
+    }
 }
 
 .rodape .redesSociais{
@@ -23,6 +29,11 @@
     display: flex;
     align-items: center; 
     justify-content: center;
+
+    @media (max-width:768px) {
+        justify-content: left;
+        padding-top: 10px;
+    }
 }
 
 .rodape .redesSociais ul li{
@@ -32,6 +43,10 @@
 
     transition: 0.5s;
     transform: scale(1);
+
+    @media (max-width:768px) {
+        padding: 3px;
+    }
 }
 
 .rodape .redesSociais ul li a{
@@ -40,6 +55,10 @@
     text-decoration: none;
 
     font-size: 25px;
+
+    @media (max-width:768px) {
+        font-size: 15px;
+    }
 
 }
 
@@ -58,10 +77,18 @@
     text-align: center;
 
     padding-top: 10px;
+
+    @media (max-width:768px) {
+        width: 25%;
+    }
 }
 
 .rodape .imagem img{
     width: 50%;
+
+    @media (max-width:768px) {
+        width: 100%;
+    }
 }
 
 .rodape .descricao{
@@ -72,6 +99,10 @@
     justify-content: center;
 
     margin-top: 10px;
+
+    @media (max-width:768px) {
+        width: 35%;
+    }
 }
 
 .rodape .descricao .descCentro{
@@ -114,12 +145,20 @@
     color: #ffffff;
     font-size: 20px;
     margin: 0;
+
+    @media (max-width:768px) {
+        font-size: 15px;
+    }
 }
 
 .rodape .descricao p{
     color: #ffffff;
     font-size: 25px;
     margin: 0;
+
+    @media (max-width:768px) {
+        font-size: 13px !important;
+    }
 }
 
 .rodape img {

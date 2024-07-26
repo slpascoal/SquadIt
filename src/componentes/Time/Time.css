@@ -1,6 +1,11 @@
 .time {
     text-align: center;
     padding: 32px;
+
+    @media (max-width:768px) {
+        padding: 15px;
+        padding-bottom: 25px;
+    }
 }
 
 .time h3 {
@@ -8,11 +13,24 @@
     border-bottom: 4px solid;
     display: inline-block;
     padding-bottom: 8px;
+
+    @media (max-width:768px) {
+        font-size: 25px;
+    }
 }
 
 .time .colaboradores {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     margin-top: 32px;
     flex-wrap: wrap;
+
+    @media (max-width:768px) {
+        margin-top: 25x;
+
+        justify-content: center;
+
+        gap: 20px;
+    }
 }
