@@ -11,6 +11,11 @@
     width: 100%;
     text-transform: uppercase;
     transition: 1s;
+
+    @media (max-width:768px) {
+        font-size: 16px;
+        padding: 13px;
+    }
 }
 
 .botao:hover {
@@ -19,4 +24,8 @@
     background-color: #FFF;
     color: #24c0eb;
     border: 1px solid #24c0eb;
+
+    @media (max-width:768px) {
+        transform: scale(1.04);
+    }
 }
