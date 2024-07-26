@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/24da77d8-e262-4489-97d7-74de01b96d3e)
 
 Projeto disponível online através do link:
-`https://squadit.vercel.app/`
+[SquadIt - Organizador de Equipes](https://squadit.vercel.app/)
 
 ## Requisitos
 
