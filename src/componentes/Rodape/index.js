@@ -7,6 +7,9 @@ import { IoMdMail } from "react-icons/io";
 
 const Rodape = () => {
 
+    const Copiar = () =>{
+        navigator.clipboard.writeText('slpascoal01@gmail.com');
+    }
 
     return (
         <header className="rodape">
@@ -23,9 +26,7 @@ const Rodape = () => {
             <section className='descricao'>
                 <div className='descCentro'>
                     <h4>Desenvolvido por Silas L. Pascoal</h4>
-                    <p>Me envie um email: <IoMdMail className='copymail' onClick={() => {
-                        navigator.clipboard.writeText('slpascoal01@gmail.com');
-                    }}/>
+                    <p>Me envie um email: <IoMdMail className='copymail' onClick={Copiar}/>
                     </p>
                 </div>
             </section>
