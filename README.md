@@ -1,5 +1,4 @@
 # **SquadIt - Organizador de Equipes**
-
 Seu organizador de equipes dev!
 
 ![image](https://github.com/user-attachments/assets/24da77d8-e262-4489-97d7-74de01b96d3e)
