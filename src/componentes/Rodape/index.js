@@ -16,7 +16,7 @@ const Rodape = () => {
             <div className='redesSociais'>
                 <ul>
                     <li><a href='https://portfolio-silas-psi.vercel.app/' target='_blank' rel="noreferrer"><FaGlobe /></a></li>
-                    <li><a href='https://github.com/slpascoal' target='_blank' rel="noreferrer"><FaGithub /></a></li>
+                    <li><a href='https://github.com/slpascoal/SquadIt' target='_blank' rel="noreferrer"><FaGithub /></a></li>
                     <li><a href='https://www.instagram.com/msi.lp/' target='_blank' rel="noreferrer"><FaInstagram /></a></li>
                 </ul>
             </div>
